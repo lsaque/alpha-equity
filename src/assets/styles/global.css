@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'Pangram-ExtraLight';
+  src: url('../fonts/Pangram-ExtraLight.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Pangram-Regular';
+  src: url('../fonts/Pangram-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Pangram-Bold';
+  src: url('../fonts/Pangram-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Pangram-Black';
+  src: url('../fonts/Pangram-Black.ttf') format("truetype");
+}
+
+
+:root {
+  font-size: 60%;
+  --color-background: #F2F2F0;
+  --color-primary: #FFC415;
+  --color-secondary: #FFF;
+
+  --color-carousel: #FFFFFF;
+  --color-about: #FFFFFF;
+
+  --color-input-background: #FFC415;
+  --color-button-text: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background);
+}
+
+#root {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Pangram;
+  color: var(--color-text-base);
+}
+
+button {
+  transition: 250ms;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:hover {
+  filter: brightness(80%);
+}
+
+.container {
+  width: 90vw;
+  max-width: 1400px;
+}
+
+.container-fluid {
+  width: 90vw;
+  max-width: 1600px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
