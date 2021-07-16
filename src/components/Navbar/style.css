@@ -133,7 +133,7 @@ nav .navbar-style-right span {
   height: 60px;
   position: absolute;
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 0;
   z-index: 1;
 }
 
