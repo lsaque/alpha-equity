@@ -21,6 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-src/components/Navbar/index.js
-src/components/Navbar/script.js
-src/components/Navbar/style.css
