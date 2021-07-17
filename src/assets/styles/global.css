@@ -20,16 +20,13 @@
 
 
 :root {
+  /* filter: saturate(1.9); */
   font-size: 60%;
   --color-background: #F2F2F0;
-  --color-primary: #FFC415;
-  --color-secondary: #FFF;
-
-  --color-carousel: #FFFFFF;
-  --color-about: #FFFFFF;
-
-  --color-input-background: #FFC415;
-  --color-button-text: #000;
+  
+  --color-yellow: #FFC415;
+  --color-white: #FFFFFF;
+  --color-black: #000;
 }
 
 * {
@@ -48,17 +45,13 @@ body {
   background: var(--color-background);
 }
 
-#root {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
 body,
 input,
 button,
 textarea {
-  font: 500 1.6rem Pangram;
+  font-family: Pangram-Regular;
+  font-weight: 500;
+  font-size: 1.6rem;
   color: var(--color-text-base);
 }
 

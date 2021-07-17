@@ -1,7 +1,5 @@
 // Chamando o Offcanvas
 window.onload = function mainScript() {
-  "use strict";
-
   const offcanvasToggle = document.querySelector(
     '[data-bs-toggle="offcanvas"]',
   );
