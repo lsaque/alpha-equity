@@ -70,12 +70,12 @@
 }
 
 #inicio .active,
-#porfolio .active {
+#portfolio .active{
   background-color: var(--color-yellow);
 }
 
 #inicio .carousel-inner,
-#porfolio .active {
+#portfolio .carousel-inner{
   height: 100vh;
 }
 

@@ -1,0 +1,53 @@
+@import url(../../assets/styles/global.css);
+@import url(../../pages/Home/style.css);
+
+#portfolio {
+  position: relative;
+}
+
+#portfolio .carousel-inner .center-content {
+  position: absolute;
+  display: grid;
+  top: 0;
+  align-content: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+#portfolio .carousel-item .button-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+#portfolio .carousel-item .button-box a{
+  background: var(--color-yellow);
+  width: 29rem;
+  height: 3.5rem;
+  
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  
+  font-family: Pangram-Bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-black);
+
+  border: none;
+  transform: skew(-20deg);
+  transition: all 0.4s;
+}
+
+#portfolio .carousel-item .button-box a:hover{
+  filter: contrast(1.5);
+  width: 35rem;
+  box-shadow: 15px 30px 99px rgb(0 0 0 / 16%);
+}
+
+#portfolio .carousel-item .button-box a > span{
+  transform: skew(20deg);
+}

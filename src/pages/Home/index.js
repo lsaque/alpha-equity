@@ -8,11 +8,11 @@ function Home() {
     <section id="inicio">
       <div id="activeCarousel0" className="carousel slide " data-bs-ride="carousel">
         <div className="carousel-indicators">
-          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"/>
+          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="1" aria-label="Slide 2"/>
+          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="2" aria-label="Slide 3"/>
+          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="3" aria-label="Slide 4"/>
+          <button type="button" data-bs-target="#activeCarousel0" data-bs-slide-to="4" aria-label="Slide 5"/>
         </div>
 
         <div className="footer container-fluid">
