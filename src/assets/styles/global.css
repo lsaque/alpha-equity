@@ -22,7 +22,7 @@
 :root {
   overflow-x: hidden;
   font-size: 60%;
-  /* filter: saturate(2); */
+  /* filter: saturate(1.3); */
 
   --color-yellow: #FFC415;
   --color-white: #FFFFFF;

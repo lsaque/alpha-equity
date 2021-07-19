@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './style.css';
 
 function PortfolioItem() {
@@ -10,24 +11,24 @@ function PortfolioItem() {
             <h1 className="display-1">Conheça nosso <br/><span>portfólio</span></h1>
           </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
-              <div className="internal-box col-12">
+              <a className="internal-box col-12" href="...">
                 <h3 className="h1">Fundos de <br/>Investimento</h3>
-              </div>
+              </a>
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
-              <div className="internal-box col-12">
+              <a className="internal-box col-12" href="...">
                 <h3 className="h1">Operações <br/>Estruturadas</h3>
-              </div>
+              </a>
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
-              <div className="internal-box col-12">
+              <a className="internal-box col-12" href="...">
                 <h3 className="h1">Merges & <br/>Acquisitions</h3>
-              </div>
+              </a>
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
-              <div className="internal-box col-12">
+              <a className="internal-box col-12" href="...">
                 <h3 className="h1">Decentralized <br/>Finance</h3>
-              </div>
+              </a>
             </div>
           </div>
         </div>  
