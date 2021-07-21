@@ -33,7 +33,7 @@ function Navbar() {
         >
 
         <ul className="navbar-nav navbar-style-center">
-            <li className="nav-item" id="home">
+            <li className="nav-item active" id="home">
               <a className="nav-link" aria-current="page" href="#inicio" data-hover="Inicio" >Inicio</a>
             </li>
             <li className="nav-item" id="portifolio">

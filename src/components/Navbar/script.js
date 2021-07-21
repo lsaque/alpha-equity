@@ -38,15 +38,16 @@ var nav_active_change = () =>{
     const sections = document.querySelectorAll('section')
     const navLi = document.querySelectorAll('.nav-item')
     let current = ''
+
     sections.forEach( section => {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
       if(window.pageYOffset >= (sectionTop - sectionHeight / 3)){
         current = section.getAttribute('id')
-        if(current == "inicio"){
+        if(current === "inicio"){
           current = "home"
         }
-        if(current == "portfolio-item" || current == "portfolio"){
+        if(current === "portfolio-item" || current === "portfolio"){
           current = "portifolio"
         }
       }
@@ -54,7 +55,7 @@ var nav_active_change = () =>{
 
     navLi.forEach( li => {
       li.classList.remove('active')
-      if(li.id == current)
+      if(li.id === current)
         li.classList.add('active')
     })
     
