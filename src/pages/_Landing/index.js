@@ -3,8 +3,8 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import Home from '../Home';
 import PortfolioItem from '../PortfolioItem';
-import Portfolio from '../Portfolio';
-// import Sobre from '../Sobre';
+// import Portfolio from '../Portfolio';
+import Sobre from '../Sobre';
 // import Alphapedia from '../Alphapedia';
 // import Contato from '../Contato';
 // import Footer from '../../components/Footer';
@@ -16,13 +16,15 @@ function Landing() {
   return (
     <>
       <Navbar/>
-      <Home/>
-      <PortfolioItem/>
-      <Portfolio/>
-      <BackTriangle/>
-      {/* <Sobre/> */}
-      {/* <Alphapedia/> */}
-      {/* <Contato/> */}
+      <main data-spy="scroll" data-target="#left-menu" data-offset="50">
+        <Home/>
+        <PortfolioItem/>
+        {/* <Portfolio/> */}
+        <Sobre/>
+        {/* <Alphapedia/> */}
+        {/* <Contato/> */}
+      </main>
+        <BackTriangle/>
       {/* <Footer/> */}
     </>
   );

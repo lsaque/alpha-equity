@@ -1,0 +1,51 @@
+@import url(../../assets/styles/global.css);
+
+#sobre {
+  position: relative;
+  z-index: 999;
+}
+
+#sobre {
+  width: 100vw;
+  height: 400vh;
+  background: var(--color-background);
+}
+
+#sobre .img-bg{
+  background-image: url(../../assets/images/Sobre/background.png);
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#sobre .container-fluid{
+  border: 1px solid aqua;
+}
+
+#sobre .container{
+  border: 1px solid red;
+  width: 30%;
+}
+
+#sobre .left-menu{
+  padding-top: 8rem;
+  width: 20rem;
+}
+
+#sobre .left-menu a{
+  padding: 2rem 0;
+}
+
+#sobre p{
+  color: var(--color-black);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}

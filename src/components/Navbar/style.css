@@ -14,9 +14,9 @@ nav .navbar-nav {
 
 nav .navbar-brand {
   display: flex;
-  width: 50%;
+  width: 40%;
+  /* min-width: 10%; */
   margin-right: auto;
-  padding-right: 10px;
 }
 
 nav .navbar-brand img {
@@ -36,6 +36,7 @@ nav .navbar-style-center * {
 }
 
 nav .navbar-style-center li {
+  width: 13rem;
   padding-top: 10px;
   display: inline-block;
   list-style: outside none none;
@@ -227,6 +228,14 @@ nav .navbar-style-right span {
 
   nav .navbar-style-right {
     padding-left: 0;
+  }
+
+  nav .navbar-brand {
+    width: 50%;
+  }
+
+  nav .navbar-style-center li {
+    width: 100%;
   }
 }
 

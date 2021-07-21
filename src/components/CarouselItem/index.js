@@ -19,8 +19,8 @@ function carouselContentItem(image, title, description, href, textButton){
     </div>
   )
 }
-class CarouselItem extends React.Component {
 
+class CarouselItem extends React.Component {
   render(){
     return (
       <section id="portfolio">
