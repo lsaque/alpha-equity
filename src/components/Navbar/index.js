@@ -33,20 +33,20 @@ function Navbar() {
         >
 
         <ul className="navbar-nav navbar-style-center">
-            <li className="nav-item active">
-              <a className="nav-link" aria-current="page" href="#inicio" data-hover="Inicio">Inicio</a>
+            <li className="nav-item active" id="home">
+              <a className="nav-link" aria-current="page" href="#inicio" data-hover="Inicio" >Inicio</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#portfolio-item" data-hover="Portfolio">Portfolio</a>
+            <li className="nav-item" id="portifolio">
+              <a className="nav-link" href="#portfolio-item" data-hover="Portfolio" >Portfolio</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" id="quem-somos">
               <a className="nav-link" href="#sobre" data-hover="Sobre">Sobre</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#alphapedia" data-hover="Alphapédia">Alphapédia</a>
+            <li className="nav-item" id="pedia">
+              <a className="nav-link" href="#alphapedia" data-hover="Alphapédia" >Alphapédia</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contato" data-hover="Contato">Contato</a>
+            <li className="nav-item" id="contato">
+              <a className="nav-link" href="#contato" data-hover="Contato" >Contato</a>
             </li>
         </ul>
 

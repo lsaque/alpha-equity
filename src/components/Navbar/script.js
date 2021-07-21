@@ -8,13 +8,13 @@ window.onload = function mainScript() {
   offcanvasToggle.addEventListener("click", function () {
     offcanvasCollapse.classList.toggle("open");
   });
-
   scrollFunction();
 };
 
 // Se o usuário realizar a rolagem, trocar o menu transparente pelo colorido
 window.onscroll = function () {
-  scrollFunction()
+  scrollFunction();
+  navActiveChange();
 };
 
 function scrollFunction() {
@@ -32,4 +32,35 @@ function scrollFunction() {
     menu.classList.add('header-transparent');
     menu.classList.remove('header-black');
   }
+}
+
+var navActiveChange = () => {
+  const sections = document.querySelectorAll('section');
+  const navLi = document.querySelectorAll('.nav-item');
+  let current = '';
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if (window.pageYOffset >= (sectionTop - sectionHeight / 3)) {
+      current = section.getAttribute('id');
+      if (current === "inicio") {
+        current = "home";
+      }
+      if (current === "portfolio-item" || current === "portfolio") {
+        current = "portifolio";
+      }
+      if (current === "sobre") {
+        current = "quem-somos";
+      }
+    }
+  })
+
+  navLi.forEach(li => {
+    li.classList.remove('active');
+    if (li.id === current) {
+      li.classList.add('active');
+    }
+  })
 }
