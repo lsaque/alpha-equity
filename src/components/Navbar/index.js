@@ -39,8 +39,13 @@ function Navbar() {
             <li className="nav-item" id="portifolio">
               <a className="nav-link" href="#portfolio-item" data-hover="Portfolio" >Portfolio</a>
             </li>
+<<<<<<< HEAD
             <li className="nav-item" id="quem-somos">
               <a className="nav-link" href="#sobre" data-hover="Sobre">Sobre</a>
+=======
+            <li className="nav-item" id="sobre">
+              <a className="nav-link" href="#sobre" data-hover="Sobre" >Sobre</a>
+>>>>>>> f16ba2e81bf58ff2ff7670c09f648023ac2d5f12
             </li>
             <li className="nav-item" id="pedia">
               <a className="nav-link" href="#alphapedia" data-hover="Alphapédia" >Alphapédia</a>

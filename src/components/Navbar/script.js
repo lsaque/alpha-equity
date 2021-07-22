@@ -13,8 +13,13 @@ window.onload = function mainScript() {
 
 // Se o usuário realizar a rolagem, trocar o menu transparente pelo colorido
 window.onscroll = function () {
+<<<<<<< HEAD
   scrollFunction();
   navActiveChange();
+=======
+  scrollFunction()
+  nav_active_change()
+>>>>>>> f16ba2e81bf58ff2ff7670c09f648023ac2d5f12
 };
 
 function scrollFunction() {
@@ -34,6 +39,7 @@ function scrollFunction() {
   }
 }
 
+<<<<<<< HEAD
 var navActiveChange = () => {
   const sections = document.querySelectorAll('section');
   const navLi = document.querySelectorAll('.nav-item');
@@ -63,4 +69,31 @@ var navActiveChange = () => {
       li.classList.add('active');
     }
   })
+=======
+var nav_active_change = () =>{
+    const sections = document.querySelectorAll('section')
+    const navLi = document.querySelectorAll('.nav-item')
+    let current = ''
+
+    sections.forEach( section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if(window.pageYOffset >= (sectionTop - sectionHeight / 3)){
+        current = section.getAttribute('id')
+        if(current === "inicio"){
+          current = "home"
+        }
+        if(current === "portfolio-item" || current === "portfolio"){
+          current = "portifolio"
+        }
+      }
+    })
+
+    navLi.forEach( li => {
+      li.classList.remove('active')
+      if(li.id === current)
+        li.classList.add('active')
+    })
+    
+>>>>>>> f16ba2e81bf58ff2ff7670c09f648023ac2d5f12
 }
