@@ -8,13 +8,14 @@
   background-position: top center;
   width: 100vw;
   height: auto;
-  z-index: 999;
+  z-index: 1;
 }
 
 #portfolio-item .row {
   justify-content: space-around;
   padding: 10rem 0;
   height: 100vh;
+  max-height: 1080px;
   align-content: flex-end;
 }
 

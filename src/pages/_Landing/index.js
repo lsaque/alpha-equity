@@ -18,8 +18,8 @@ function Landing() {
       <Navbar/>
       <main data-spy="scroll" data-target="#left-menu" data-offset="50">
         <Home/>
-        <PortfolioItem/>
         {/* <Portfolio/> */}
+        <PortfolioItem/>
         <Sobre/>
         {/* <Alphapedia/> */}
         {/* <Contato/> */}

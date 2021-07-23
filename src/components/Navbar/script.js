@@ -13,13 +13,9 @@ window.onload = function mainScript() {
 
 // Se o usuário realizar a rolagem, trocar o menu transparente pelo colorido
 window.onscroll = function () {
-<<<<<<< HEAD
   scrollFunction();
   navActiveChange();
-=======
-  scrollFunction()
-  nav_active_change()
->>>>>>> f16ba2e81bf58ff2ff7670c09f648023ac2d5f12
+  fixedLeftMenu();
 };
 
 function scrollFunction() {
@@ -39,61 +35,44 @@ function scrollFunction() {
   }
 }
 
-<<<<<<< HEAD
 var navActiveChange = () => {
-  const sections = document.querySelectorAll('section');
-  const navLi = document.querySelectorAll('.nav-item');
-  let current = '';
+  const sections = document.querySelectorAll('section')
+  const navLi = document.querySelectorAll('.nav-item')
+  let current = ''
 
   sections.forEach(section => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
+    const sectionTop = section.offsetTop
+    const sectionHeight = section.clientHeight
 
     if (window.pageYOffset >= (sectionTop - sectionHeight / 3)) {
-      current = section.getAttribute('id');
+      current = section.getAttribute('id')
       if (current === "inicio") {
-        current = "home";
+        current = "home"
       }
-      if (current === "portfolio-item" || current === "portfolio") {
-        current = "portifolio";
+      if (current === "portfolio-item") {
+        current = "portfolio"
       }
       if (current === "sobre") {
-        current = "quem-somos";
+        current = "quem-somos"
       }
     }
   })
 
   navLi.forEach(li => {
-    li.classList.remove('active');
+    li.classList.remove('active')
     if (li.id === current) {
-      li.classList.add('active');
+      li.classList.add('active')
     }
   })
-=======
-var nav_active_change = () =>{
-    const sections = document.querySelectorAll('section')
-    const navLi = document.querySelectorAll('.nav-item')
-    let current = ''
+}
 
-    sections.forEach( section => {
-      const sectionTop = section.offsetTop;
-      const sectionHeight = section.clientHeight;
-      if(window.pageYOffset >= (sectionTop - sectionHeight / 3)){
-        current = section.getAttribute('id')
-        if(current === "inicio"){
-          current = "home"
-        }
-        if(current === "portfolio-item" || current === "portfolio"){
-          current = "portifolio"
-        }
-      }
-    })
+var fixedLeftMenu = () => {
+  var navbar = document.getElementById("left-menu");
+  var sticky = navbar.offsetTop;
 
-    navLi.forEach( li => {
-      li.classList.remove('active')
-      if(li.id === current)
-        li.classList.add('active')
-    })
-    
->>>>>>> f16ba2e81bf58ff2ff7670c09f648023ac2d5f12
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }

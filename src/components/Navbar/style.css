@@ -40,7 +40,7 @@ nav .navbar-style-center li {
   padding-top: 10px;
   display: inline-block;
   list-style: outside none none;
-  margin: 0 1em;
+  margin: 0 0.25em;
   overflow: hidden;
 }
 

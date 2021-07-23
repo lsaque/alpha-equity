@@ -2,50 +2,218 @@
 
 #sobre {
   position: relative;
+  width: 100vw;
+  height: 200vh;
+  /* z-index: 1; */
+}
+
+#sobre hr,
+#sobre h1,
+#sobre h2,
+#sobre p {
+  position: relative;
+  z-index: 1;
+}
+
+#sobre .img-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  max-height: 1080px;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#sobre .container-fluid {
+  max-width: 1700px;
+  display: flex;
+  align-items: baseline;
+  padding: 0;
+}
+
+#sobre .left-menu {
+  width: 0;
+  top: 43%;
+  position: sticky;
+  z-index: 1 !important;
+}
+
+#sobre .left-menu .list-group-item {
+  background: transparent;
+  color: var(--color-black);
+  opacity: 80%;
+  font-family: Pangram-Regular;
+  text-transform: uppercase;
+  border: none;
+}
+
+#sobre .active {
+  border-left: 3px solid var(--color-yellow) !important;
+  max-width: 20%;
+  opacity: 1 !important;
+}
+
+#sobre .row {
+  width: 75vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#sobre .initial-content {
+  padding: 12rem 0;
+  height: 100vh;
+  max-height: 1080px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-content: space-between;
+  color: var(--color-white);
   z-index: 999;
 }
 
-#sobre {
-  width: 100vw;
-  height: 400vh;
-  background: var(--color-background);
+#sobre .initial-content .center h1 {
+  text-transform: uppercase;
+  font-family: Pangram-Bold;
 }
 
-#sobre .img-bg{
-  background-image: url(../../assets/images/Sobre/background.png);
-  background-position: top center;
-  background-size: cover;
+#sobre .box-content {
   height: 100vh;
+  max-height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#sobre .container-fluid{
-  border: 1px solid aqua;
+#sobre .box-content .visao {
+  padding-top: 30rem;
 }
 
-#sobre .container{
-  border: 1px solid red;
-  width: 30%;
-}
-
-#sobre .left-menu{
+#sobre .box-content .valores-text {
   padding-top: 8rem;
-  width: 20rem;
 }
 
-#sobre .left-menu a{
-  padding: 2rem 0;
+#sobre .box-content p:first-child {
+  margin-bottom: 5rem;
 }
 
-#sobre p{
+#sobre .box-content .left-content hr {
+  width: 35px;
+  border: 1.5px solid var(--color-black);
+  opacity: 1;
+}
+
+#sobre .box-content .left-content h2 {
+  text-transform: uppercase;
+}
+
+#sobre .box-content .left-content p {
+  padding-right: 7rem;
+}
+
+#sobre .box-content .right-content {
+  padding-left: 7rem;
+}
+
+#sobre .box-content .left-content hr,
+#sobre .box-content .left-content h2,
+#sobre .box-content .left-content h1,
+#sobre .box-content .left-content img,
+#sobre .box-content .equipe-text {
+  margin-bottom: 4rem;
+}
+
+#sobre .box-content .accordion .accordion-item {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-black);
+}
+
+#sobre .box-content .accordion .accordion-header {
+  margin-bottom: 0;
+  height: 100%;
+}
+
+#sobre .box-content .accordion .accordion-item button {
+  height: 60px;
   color: var(--color-black);
+  font-size: 1.8rem;
+  padding: 0;
+  padding-right: 1rem;
+  text-transform: uppercase;
+  background: transparent;
 }
 
-.sticky {
-  position: sticky;
-  top: 0;
+#sobre .box-content .accordion .accordion-item button:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#sobre .box-content .accordion .profile-container {
+  padding: 2rem 2rem;
+}
+
+#sobre .box-content .accordion .profile-container img {
   width: 100%;
+  object-fit: cover;
 }
 
-.sticky + .content {
-  padding-top: 60px;
+#sobre .box-content .accordion .profile-container-text {
+  margin-bottom: 1rem;
+}
+
+#sobre .box-content .accordion .profile-container-text h1 {
+  text-transform: uppercase;
+}
+
+#sobre .box-content .accordion .profile-container-text h1,
+#sobre .box-content .accordion .profile-container-text h5 {
+  margin-bottom: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: grayscale(1);
+}
+
+@media (max-width: 991.98px) {
+  #sobre .container-fluid {
+    display: block;
+  }
+
+  #sobre .row {
+    width: 90vw;
+  }
+
+  #sobre .left-menu {
+    display: none;
+  }
+
+  #sobre .box-content {
+    height: auto;
+    margin: 10rem 0;
+  }
+
+    #sobre .box-content .accordion .accordion-item button {
+    font-size: 1.5rem;
+  }
+
+  #sobre .box-content .visao,
+  #sobre .box-content .valores-img {
+    padding-top: 4rem;
+  }
+
+  #sobre .box-content img,
+  #sobre .box-content .left-content,
+  #sobre .box-content .right-content,
+  #sobre .box-content .left-content p {
+    padding: 0;
+  }
+
+
+}
+
+@media (min-width: 1210px) {
+  #sobre .initial-content .center h1 {
+    font-size: 6.4rem;
+  }
 }
