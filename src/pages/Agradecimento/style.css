@@ -1,0 +1,38 @@
+#agradecimento {
+  background-image: url(../../assets/images/Contato/agradecimento.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  max-height: 1080px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* z-index: 1; */
+}
+
+#agradecimento .h1-text{
+  color: var(--color-white);
+  z-index: 1;
+
+}
+
+#agradecimento h1{
+  font-family: Pangram-Bold;
+}
+
+#agradecimento .p-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+#agradecimento p{
+  max-width: 70%;
+}
