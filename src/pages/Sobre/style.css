@@ -1,15 +1,15 @@
-/* @import url(../../assets/styles/global.css); */
-
 #sobre {
   position: relative;
   width: 100vw;
-  padding-bottom: 15rem;
+  padding-bottom: 30rem;
+  /* padding-bottom: 15rem; */
   /* z-index: 1; */
 }
 
 #sobre hr,
 #sobre h1,
 #sobre h2,
+#sobre h5,
 #sobre p {
   position: relative;
   z-index: 1;
@@ -78,7 +78,6 @@
 
 #sobre .box-content {
   height: 100vh;
-  max-height: 1080px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +107,7 @@
   text-transform: uppercase;
 }
 
-#sobre .box-content .left-content p{
+#sobre .box-content .left-content p {
   padding-right: 7rem;
 }
 
@@ -180,7 +179,7 @@
 @media (max-width: 991.98px) {
 
   #sobre {
-    padding-bottom: 1rem;  
+    padding-bottom: 1rem;
   }
 
   #sobre .container-fluid {
@@ -200,7 +199,7 @@
     margin: 10rem 0;
   }
 
-    #sobre .box-content .accordion .accordion-item button {
+  #sobre .box-content .accordion .accordion-item button {
     font-size: 1.5rem;
   }
 
@@ -215,12 +214,14 @@
   #sobre .box-content .left-content p {
     padding: 0;
   }
-
-
 }
 
 @media (min-width: 1210px) {
   #sobre .initial-content .center h1 {
     font-size: 6.4rem;
+  }
+
+  #sobre .box-content {
+    max-height: 1080px;
   }
 }

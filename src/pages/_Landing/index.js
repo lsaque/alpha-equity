@@ -7,7 +7,7 @@ import Sobre from '../Sobre';
 // import Alphapedia from '../Alphapedia';
 import Agradecimento from '../Agradecimento';
 import Contato from '../Contato';
-// import Footer from '../../components/Footer';
+import Footer from '../../components/Footer';
 
 import '../../assets/styles/global.css';
 import BackTriangle from '../../components/BackTriangle';
@@ -23,9 +23,9 @@ function Landing() {
         {/* <Alphapedia/> */}
         <Agradecimento/>
         <Contato/>
-      </main>
         <BackTriangle/>
-      {/* <Footer/> */}
+      </main>
+      <Footer/>
     </>
   );
 }
