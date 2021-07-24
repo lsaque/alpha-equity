@@ -11,7 +11,7 @@ import profile from '../../assets/images/Sobre/profile-icon.png';
 
 function Sobre() {
   return (
-    <section id="sobre" className="content">
+    <section id="sobre">
 
       <img className="img-bg" src={img} alt="" />
       <div className="container-fluid">
@@ -41,6 +41,7 @@ function Sobre() {
 
           <div className="content-menu" data-bs-spy="scroll" data-bs-target="#left-menu" data-bs-offset="0"
             tabIndex="0">
+
             <div className="row box-content" id="afinal-quem-somos">
               <div className="col-12 col-lg-6 left-content">
                 <hr />
@@ -400,6 +401,7 @@ function Sobre() {
               </div>
 
             </div>
+          
           </div>
         </div>
 

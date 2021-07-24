@@ -38,7 +38,7 @@ function Navbar() {
               <li className="nav-item" id="pedia">
                 <a className="nav-link" href="#alphapedia" data-hover="Alphapédia">Alphapédia</a>
               </li>
-              <li className="nav-item" id="contato">
+              <li className="nav-item" id="contate-nos">
                 <a className="nav-link" href="#contato" data-hover="Contato">Contato</a>
               </li>
             </ul>

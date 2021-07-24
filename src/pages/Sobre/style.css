@@ -1,9 +1,9 @@
-@import url(../../assets/styles/global.css);
+/* @import url(../../assets/styles/global.css); */
 
 #sobre {
   position: relative;
   width: 100vw;
-  height: 200vh;
+  padding-bottom: 15rem;
   /* z-index: 1; */
 }
 
@@ -96,17 +96,19 @@
   margin-bottom: 5rem;
 }
 
-#sobre .box-content .left-content hr {
+#sobre .box-content .left-content hr,
+#alphapedia .box-content .left-content hr {
   width: 35px;
   border: 1.5px solid var(--color-black);
   opacity: 1;
 }
 
-#sobre .box-content .left-content h2 {
+#sobre .box-content .left-content h2,
+#alphapedia .box-content .left-content h2 {
   text-transform: uppercase;
 }
 
-#sobre .box-content .left-content p {
+#sobre .box-content .left-content p{
   padding-right: 7rem;
 }
 
@@ -176,6 +178,11 @@
 }
 
 @media (max-width: 991.98px) {
+
+  #sobre {
+    padding-bottom: 1rem;  
+  }
+
   #sobre .container-fluid {
     display: block;
   }
