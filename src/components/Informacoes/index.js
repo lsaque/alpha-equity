@@ -12,7 +12,7 @@ function Informacoes() {
             </a>
           </div>
           <div className="col-12 col-md-6 col-lg-3 informacoes-item">
-            <a href="...">
+            <a href="https://g.page/alpha-equity?share" target="_blank">
               <p className="h3">Av. Faria Lima, 50<br />São Paulo - SP</p>
             </a>
           </div>

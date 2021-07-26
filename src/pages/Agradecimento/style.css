@@ -7,7 +7,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  max-height: 1080px;
+  /* max-height: 1080px; */
   text-align: center;
 
   display: flex;
@@ -19,6 +19,7 @@
 #agradecimento .h1-text {
   color: var(--color-white);
   z-index: 1;
+  height: 20rem;
 }
 
 #agradecimento h1 {
@@ -34,4 +35,10 @@
 
 #agradecimento p {
   max-width: 70%;
+}
+
+@media (min-width: 1210px) {
+    #agradecimento h1 {
+    font-size: 4.5rem;
+  }
 }

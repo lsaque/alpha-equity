@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
-import './script.js'
-import logo from '../../assets/images/logo.svg'
+import './script.js';
+import logo from '../../assets/images/logo.svg';
 
 function Navbar() {
   return (
