@@ -7,13 +7,12 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  /* max-height: 1080px; */
+  max-height: 1080px;
   text-align: center;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  /* z-index: 1; */
 }
 
 #agradecimento .h1-text {

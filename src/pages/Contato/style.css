@@ -95,3 +95,13 @@
 #contato .form .button-box button>span {
   transform: skew(20deg);
 }
+
+#contato .form input:-webkit-autofill
+{
+  background: transparent;
+ -webkit-text-fill-color: var(--color-black) !important;
+}
+
+#contato .form-floating>.form-control:-webkit-autofill~label {
+  color: var(--color-black);
+}
