@@ -85,9 +85,8 @@ footer iframe:hover {
 
 footer .footer-bar1 {
   line-height: 5rem;
-  /* background-color: var(--color-black); */
+  background-color: var(--color-black);
   margin-top: 5rem;
-  background-color: black;
 }
 
 footer .container .row .item-footer:first-child {
@@ -123,7 +122,6 @@ footer .footer-bar2 a {
 
 footer .footer-bar2 a:hover {
   font-family: Pangram-Regular;
-  /* font-size: 2rem; */
 }
 
 @media (max-width: 576px) {
