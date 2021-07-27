@@ -40,11 +40,15 @@
 
 #sobre .left-menu .list-group-item {
   background: transparent;
-  color: var(--color-black);
+  color: var(--color-white);
   opacity: 80%;
   font-family: Pangram-Regular;
   text-transform: uppercase;
   border: none;
+}
+
+.colorblackI{
+  color: var(--color-black) !important;
 }
 
 #sobre .active {
