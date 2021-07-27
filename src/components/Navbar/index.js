@@ -44,7 +44,7 @@ function Navbar() {
             </ul>
 
             <ul className="navbar-nav navbar-style-right">
-              <li className="nav-item active">
+              <li className="nav-item active1">
                 <a className="nav-link" href="...">ENG</a>
               </li>
               <span />

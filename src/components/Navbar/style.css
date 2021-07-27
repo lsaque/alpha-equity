@@ -107,7 +107,7 @@ nav .navbar-style-right a {
 }
 
 nav .navbar-style-right a:hover,
-nav .navbar-style-right .active a {
+nav .navbar-style-right .active1 a {
   color: var(--color-white);
 }
 

@@ -41,20 +41,19 @@
 #sobre .left-menu .list-group-item {
   background: transparent;
   color: var(--color-white);
-  opacity: 80%;
   font-family: Pangram-Regular;
   text-transform: uppercase;
   border: none;
 }
 
-.colorblackI{
+.colorblackI {
   color: var(--color-black) !important;
 }
 
 #sobre .active {
   border-left: 3px solid var(--color-yellow) !important;
   max-width: 20%;
-  opacity: 1 !important;
+  font-weight: 600;
 }
 
 #sobre .row {
