@@ -11,10 +11,11 @@ function Contato() {
             <h1 className="display-3">Gostou? Preencha o formulário<br />indicando a sua demanda</h1>
           </div>
 
-          <div className="row col-12 form ">
+          <form className="row col-12 form" autoComplete="off">
             <div className="form-floating col-12 col-sm-6">
               <input 
                 type="text" 
+                autoComplete="off"
                 className="form-control shadow-none" 
                 id="name-input" 
                 placeholder="Nome Completo:"
@@ -26,6 +27,7 @@ function Contato() {
             <div className="form-floating col-12 col-sm-6">
               <input 
                 type="email" 
+                autoComplete="off"
                 className="form-control shadow-none" 
                 id="email-input" 
                 placeholder="E-mail:"
@@ -38,6 +40,7 @@ function Contato() {
             <div className="form-floating col-12 col-sm-6">
               <input 
                 type="text" 
+                autoComplete="off"
                 className="form-control shadow-none" 
                 id="assunto-input" 
                 placeholder="Assunto:"
@@ -49,6 +52,7 @@ function Contato() {
             <div className="form-floating col-12 col-sm-6">
               <input 
                 type="number" 
+                autoComplete="off"
                 className="form-control shadow-none" 
                 id="telefone-input" max="11" min="9"
                 placeholder="Telefone:" 
@@ -63,6 +67,7 @@ function Contato() {
                 className="form-control shadow-none" 
                 id="mensagem-input" 
                 placeholder="Mensagem:"
+                autoComplete="off"
                 required 
               />
               <label htmlFor="mensagem-input">Mensagem:</label>
@@ -72,7 +77,7 @@ function Contato() {
               <button type="submit" href="..."><span>Enviar</span></button>
             </div>
 
-          </div>
+          </form>
 
         </div>
       </div>

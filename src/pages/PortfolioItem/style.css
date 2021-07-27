@@ -65,12 +65,26 @@
   border: 3px solid var(--color-yellow);
   backdrop-filter: blur(2px);
   transition: all 0.5s;
+  cursor: pointer;
 }
 
-#portfolio-item .box .internal-box h3 {
+#portfolio-item .box button{
+  background: transparent;
+  filter: contrast(1);
+
+}
+
+#portfolio-item .box .internal-box .h1 {
   text-transform: uppercase;
+  text-decoration: none;
+  background: none;
+  border: none;
   text-align: center;
   color: var(--color-white);
+}
+#portfolio-item .box .internal-box .h1:hover {
+  color: var(--color-white);
+  filter: contrast(1);
 }
 
 @media (max-width: 1210px) {
@@ -101,7 +115,7 @@
 }
 
 @media (min-width: 991.98px) and (max-width: 1210px) {
-  #portfolio-item .box .internal-box h3 {
+  #portfolio-item .box .internal-box .h1 {
     font-size: 2rem;
   }
 
