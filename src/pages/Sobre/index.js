@@ -17,11 +17,11 @@ function Sobre() {
       <div className="container-fluid">
 
         <div className="list-group left-menu col-1" id="left-menu">
-          <a className="list-group-item list-group-item-action h4 active" href="#afinal-quem-somos">Quem somos</a>
-          <a className="list-group-item list-group-item-action h4" href="#visao">Visão</a>
-          <a className="list-group-item list-group-item-action h4" href="#missao">Missão</a>
-          <a className="list-group-item list-group-item-action h4" href="#valores">Valores</a>
-          <a className="list-group-item list-group-item-action h4" href="#equipe">Equipe</a>
+          <a className="list-group-item list-group-item-action h4 active" href="#afinal-quem-somos" id='op1'>Quem somos</a>
+          <a className="list-group-item list-group-item-action h4" href="#visao" id='op2'>Visão</a>
+          <a className="list-group-item list-group-item-action h4" href="#missao" id='op3'>Missão</a>
+          <a className="list-group-item list-group-item-action h4" href="#valores" id='op4'>Valores</a>
+          <a className="list-group-item list-group-item-action h4" href="#equipe" id='op5'>Equipe</a>
         </div>
 
         <div className="row">
@@ -42,7 +42,7 @@ function Sobre() {
           <div className="content-menu" data-bs-spy="scroll" data-bs-target="#left-menu" data-bs-offset="0"
             tabIndex="0">
 
-            <div className="row box-content" id="afinal-quem-somos">
+            <div className="row box-content sobre-row" id="afinal-quem-somos">
               <div className="col-12 col-lg-6 left-content">
                 <hr />
                 <h2 className="h3">Quem somos</h2>
@@ -62,7 +62,7 @@ function Sobre() {
               </div>
             </div>
 
-            <div className="row box-content" id="visao">
+            <div className="row box-content sobre-row " id="visao">
               <div className="col-12 col-lg-6 left-content">
                 <hr />
                 <h2 className="h3">Visão</h2>
@@ -79,7 +79,7 @@ function Sobre() {
               </div>
             </div>
 
-            <div className="row box-content" id="missao">
+            <div className="row box-content sobre-row" id="missao">
               <div className="col-12 col-lg-6 left-content">
                 <hr />
                 <h2 className="h3">Missão</h2>
@@ -99,7 +99,7 @@ function Sobre() {
               </div>
             </div>
 
-            <div className="row box-content" id="valores">
+            <div className="row box-content sobre-row" id="valores">
               <div className="col-12 col-lg-6 left-content">
                 <hr />
                 <h2 className="h3">Valores</h2>
@@ -140,7 +140,7 @@ function Sobre() {
               </div>
             </div> */}
 
-            <div className="row box-content" id="equipe">
+            <div className="row box-content sobre-row" id="equipe">
               <div className="col-12 left-content">
                 <hr />
                 <h2 className="h3">Equipe</h2>

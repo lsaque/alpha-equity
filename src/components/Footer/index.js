@@ -1,10 +1,10 @@
 import React from 'react';
 import './style.css';
-import './script.js'
 import Informacoes from '../../components/Informacoes';
 import logoFull from '../../assets/images/logo-full.svg';
 import logoIcon from '../../assets/images/logo-icon.svg';
 
+const text = new Date().getFullYear()
 
 function Footer() {
   return (
@@ -83,7 +83,7 @@ function Footer() {
               <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                 <div class="row">
                   <div class="col-12 col-sm-4 item-footer">
-                    <span>Copyright &copy; 2021. Alpha Equity</span>
+                    <span>Copyright &copy; {text}. Alpha Equity</span>
                   </div>
                   <div class="col-12 col-sm-4 item-footer">
                     <img class="img-fluid" src={logoIcon} alt="Logo Alpha Equity" />
@@ -106,7 +106,6 @@ function Footer() {
             </div>
           </div>
         </div>
-
       </footer>
     </>
   );
