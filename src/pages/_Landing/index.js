@@ -16,7 +16,7 @@ function Landing() {
   return (
     <>
       <Navbar/>
-      <main data-spy="scroll" data-target="#left-menu" data-offset="50">
+      <main>
         <Home/>
         <PortfolioItem/>
         <Sobre/>

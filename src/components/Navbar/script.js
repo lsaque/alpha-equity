@@ -16,6 +16,7 @@ window.onscroll = function () {
   scrollFunction();
   navActiveChange();
   fixedLeftMenu();
+  scrollEquipe();
 };
 
 function scrollFunction() {
@@ -41,29 +42,36 @@ var navActiveChange = () => {
   let current = ''
 
   sections.forEach(section => {
-    const sectionTop = section.offsetTop
-    const sectionHeight = section.clientHeight
-
-    if (window.pageYOffset >= (sectionTop - sectionHeight / 3)) {
+    if ((window.scrollY + 350) >= section.offsetTop) {
       current = section.getAttribute('id')
       if (current === "inicio") {
         current = "home"
       }
       if (current === "portfolio-item") {
-        current = "portfolio"
+        current = "portifolio"
       }
       if (current === "sobre") {
         current = "quem-somos"
       }
+      if (current === "agradecimento") {
+        current = "contate-nos"
+      }
+      if (current === "contato") {
+        current = "contate-nos"
+      }
+      if (current === "informacoes") {
+        current = "contate-nos"
+      }
     }
-  })
 
-  navLi.forEach(li => {
-    li.classList.remove('active')
-    if (li.id === current) {
-      li.classList.add('active')
-    }
-  })
+
+    navLi.forEach(li => {
+      li.classList.remove('active')
+      if (li.id === current) {
+        li.classList.add('active')
+      }
+    })
+  });
 }
 
 var fixedLeftMenu = () => {
@@ -75,4 +83,21 @@ var fixedLeftMenu = () => {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+
+var scrollEquipe = () => {
+  /*let divs = document.querySelectorAll(".scroll-quemSomos")
+  let menu = document.querySelectorAll(".menu-quem-somos")
+
+  let current = ''
+  let i = 0 
+  disvs.forEach(div => {
+      
+    const divTop = div.offsetTop
+    const divHeight = div.clientHeight
+    console.log(window.pageYOffset, " /  " , (divTop - divHeight / 3))
+    if (window.pageYOffset >= (divTop - divHeight / 3)) { 
+      current = div.getAttribute('id')
+    }
+  })*/
 }
