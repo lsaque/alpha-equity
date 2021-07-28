@@ -1,6 +1,6 @@
 import React from 'react';
 import FundosDeInvestimento from '../../components/Modals/FundosDeInvestimento';
-// import OperacoesEstruturadas from '../../components/Modals/OperacoesEstruturadas';
+// import operacoesSecuritizacao from '../../components/Modals/operacoesSecuritizacao';
 // import MergesAcquisitions from '../../components/Modals/MergesAcquisitions';
 // import DecentralizedFinance from '../../components/Modals/DecentralizedFinance';
 
@@ -9,7 +9,6 @@ import './style.css';
 function PortfolioItem() {
   return (
     <>
-
       <section id="portfolio-item" className="teste">
         <div className="container">
           <div className="row">
@@ -30,13 +29,13 @@ function PortfolioItem() {
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
               <button 
-                className="internal-box col-12" 
                 // href="portfolio-item"
+                className="internal-box col-12" 
                 data-bs-toggle="modal" 
-                data-bs-target="#operacoes-estruturadas"
+                data-bs-target="#operacoes-securitizacao"
               >
-                <div className="h1" type="button">
-                  Operações <br />Estruturadas
+                <div className="h1">
+                  Operações<br />de Securitização
                 </div>
               </button>
             </div>
@@ -47,7 +46,7 @@ function PortfolioItem() {
                 data-bs-toggle="modal" 
                 data-bs-target="#merges-and-acquisitions"
               >
-                <div className="h1" type="button">
+                <div className="h1">
                   Merges & <br />Acquisitions
                 </div>
               </button>
@@ -59,7 +58,7 @@ function PortfolioItem() {
                 data-bs-toggle="modal" 
                 data-bs-target="#decentralized-finance"
               >
-                <div className="h1" type="button">
+                <div className="h1">
                   Decentralized <br />Finance
                 </div>
               </button>

@@ -80,10 +80,10 @@ function Footer() {
 
         <div className="footer-bar1">
           <div className="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                <div class="row">
-                  <div class="col-12 col-sm-4 item-footer">
+            <div className="row">
+              <div className="col-sm-12 col-md-12 col-lg-12 text-center">
+                <div className="row">
+                  <div className="col-12 col-sm-4 item-footer">
                     <span>Copyright &copy; {text}. Alpha Equity</span>
                   </div>
                   <div className="col-12 col-sm-4 item-footer">

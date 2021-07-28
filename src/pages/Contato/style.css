@@ -2,7 +2,12 @@
   position: relative;
   z-index: 1;
   max-height: 1080px;
-  background-image: url(../../assets/images/Contato/background.png);
+  background-image: 
+  linear-gradient(
+    to bottom, rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)
+   ), 
+  url(../../assets/images/Contato/background.png);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +21,7 @@
   justify-content: center;
   align-items: center;
   color: var(--color-white);
-  padding: 15rem 2rem;
+  padding: 25rem 2rem;
 }
 
 #contato .container h1 {
@@ -33,15 +38,14 @@
 #contato .form-floating textarea {
   border-radius: 0;
   border: 1px solid var(--color-white);
-  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(30px);
-  filter: brightness(15px);
+  /* filter: brightness(0%); */
   margin-bottom: 3rem;
   font-size: 1.8rem;
   padding-left: 2rem;
   padding-top: 3rem;
   color: var(--color-white);
-
 }
 
 #contato .form-floating input:focus,
@@ -62,12 +66,14 @@
   padding-left: 3rem;
 }
 
-#contato .form .button-box {
+#contato .form .button-box,
+.modal .button-box {
   display: flex;
   justify-content: center;
 }
 
-#contato .form .button-box button {
+#contato .form .button-box button,
+.modal .button-box button {
   background: var(--color-yellow);
   width: 18rem;
   height: 3.5rem;
@@ -86,13 +92,15 @@
   transition: all 0.4s;
 }
 
-#contato .form .button-box button:hover {
+#contato .form .button-box button:hover,
+.modal .button-box button:hover{
   filter: contrast(1.5);
   width: 25rem;
   box-shadow: 15px 30px 99px rgb(0 0 0 / 16%);
 }
 
-#contato .form .button-box button>span {
+#contato .form .button-box button>span,
+.modal .button-box button>span {
   transform: skew(20deg);
 }
 
