@@ -1,8 +1,6 @@
 #sobre {
   position: relative;
   width: 100vw;
-  padding-bottom: 30rem;
-  /* padding-bottom: 15rem; */
   /* z-index: 1; */
 }
 
@@ -24,7 +22,7 @@
   object-fit: cover;
 }
 
-#sobre .container-fluid{
+#sobre .container-fluid {
   max-width: 1700px;
   display: flex;
   align-items: baseline;
@@ -32,7 +30,7 @@
 }
 
 #sobre .left-menu,
-.modal .left-menu{
+.modal .left-menu {
   width: 0;
   top: 43%;
   position: sticky;
@@ -40,14 +38,14 @@
 }
 
 #sobre .left-menu .list-group-item,
-.modal .left-menu .list-group-item{
+.modal .left-menu .list-group-item {
   background: transparent;
   font-family: Pangram-Regular;
   text-transform: uppercase;
   border: none;
 }
 
-#sobre .left-menu .list-group-item{
+#sobre .left-menu .list-group-item {
   color: var(--color-white);
 }
 
@@ -60,7 +58,6 @@
   border-left: 3px solid var(--color-yellow) !important;
   max-width: 20%;
   font-weight: 600;
-  transition: all 0.1s;
 }
 
 #sobre .row,
@@ -70,7 +67,7 @@
   margin: 0 auto;
 }
 
-#sobre .initial-content{
+#sobre .initial-content {
   padding: 12rem 0;
   height: 100vh;
   max-height: 1080px;
@@ -191,10 +188,6 @@
 
 @media (max-width: 991.98px) {
 
-  #sobre {
-    padding-bottom: 1rem;
-  }
-
   #sobre .container-fluid,
   .modal .container-fluid {
     display: block;
@@ -213,6 +206,10 @@
   #sobre .box-content {
     height: auto;
     margin: 10rem 0;
+  }
+
+  #sobre .box-content:last-child {
+    margin: 0;
   }
 
   #sobre .box-content .accordion .accordion-item button {

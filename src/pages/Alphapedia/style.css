@@ -1,38 +1,146 @@
-@import url(../../assets/styles/global.css);
-@import url(../Sobre/style.css);
-
 #alphapedia {
   position: relative;
   width: 100vw;
-  height: 100vh;
-  background: white;
   z-index: 1;
+  padding-top: 15rem;
+  padding-bottom: 20rem;
 }
 
-#alphapedia .box-content .left-content hr,
-#alphapedia .box-content .left-content h2,
-#alphapedia .box-content .left-content h1{
+#alphapedia .container-fluid {
+  width: 75vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#alphapedia .row {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+
+#alphapedia hr {
+  width: 35px;
+  border: 1.5px solid var(--color-black);
+  opacity: 1;
+}
+
+#alphapedia h2 {
+  text-transform: uppercase;
+}
+
+#alphapedia .left-content hr,
+#alphapedia .left-content .h3,
+#alphapedia .left-content .display-5 {
   margin-bottom: 4rem;
 }
 
-#alphapedia .container-box{
-  border: 1px solid red;
-  /* display: flex; */
-  /* height: 100vh; */
-}
-
-#alphapedia .box{
-    border: 1px solid aqua;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-}
-
-#alphapedia .box-item{
-  /* width: 40%; */
-  /* display: flex;
+#alphapedia .boxes {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: grid;
+  justify-items: left;
+  align-items: center;
   justify-content: center;
-  align-items: center; */
-  /* border: 1px solid green; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 500px;
+  width: 100%;
+  max-height: 500px;
+  height: 550px;
+}
+
+#alphapedia .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 150px;
+  max-height: 150px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: var(--color-yellow);
+  background: var(--color-black);
+  transition: all 0.3s;
+  filter: contrast(1);
+}
+
+#alphapedia .box:hover {
+  background: var(--color-yellow);
+  color: var(--color-white);
+  font-family: Pangram-Bold;
+  box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+}
+
+#alphapedia .box-item {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alphapedia .box-item .item {
+  padding: 1rem;
+}
+
+#alphapedia .right-content {
+  padding-top: 6rem;
+  height: 120%;
+}
+
+#alphapedia .right-content .content {
+  overflow: auto;
+  max-height: 600px;
+  padding: 0 2rem;
+}
+
+#alphapedia .right-content h1 {
+  padding: 2rem 2rem;
+}
+
+#alphapedia .right-content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+#alphapedia .right-content h2,
+#alphapedia .right-content .description {
+  padding-top: 1rem;
+}
+
+#alphapedia .right-content h2 {
+  text-transform: none;
+  font-family: Pangram-Bold;
+}
+
+@media (max-width: 991.98px) {
+  #alphapedia {
+    padding-top: 10rem;
+  }
+
+  #alphapedia .container-fluid {
+    width: 90vw;
+  }
+
+  #alphapedia .right-content .content,
+  #alphapedia .right-content h1 {
+    padding: 0;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  #alphapedia .box {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  #alphapedia .boxes {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }

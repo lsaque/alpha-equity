@@ -2,6 +2,7 @@
 
 .modal {
   max-width: 100vw;
+  box-shadow: 1px 0px 32px 20px #00000096;
 }
 
 .modal .container-fluid {

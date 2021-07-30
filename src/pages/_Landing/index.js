@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar';
 import Home from '../Home';
 import PortfolioItem from '../PortfolioItem';
 import Sobre from '../Sobre';
-// import Alphapedia from '../Alphapedia';
+import Alphapedia from '../Alphapedia';
 import Agradecimento from '../Agradecimento';
 import Contato from '../Contato';
 import Footer from '../../components/Footer';
@@ -20,7 +20,7 @@ function Landing() {
         <Home/>
         <PortfolioItem/>
         <Sobre/>
-        {/* <Alphapedia/> */}
+        <Alphapedia/>
         <Agradecimento/>
         <Contato/>
         <BackTriangle/>

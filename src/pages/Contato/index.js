@@ -8,7 +8,7 @@ function Contato() {
         <div className="row">
 
           <div className="col-12">
-            <h1 className="display-3">Gostou? Preencha o formulário<br />indicando a sua demanda</h1>
+            <h1 className="display-3">Gostou? Preencha o formulário<br />indicando a sua demanda!</h1>
           </div>
 
           <form className="row col-12 form" autoComplete="off">
@@ -18,10 +18,10 @@ function Contato() {
                 autoComplete="off"
                 className="form-control shadow-none" 
                 id="name-input" 
-                placeholder="Nome Completo:"
+                placeholder="Nome:"
                 required 
               />
-              <label htmlFor="name-input">Nome Completo:</label>
+              <label htmlFor="name-input">Nome:</label>
             </div>
 
             <div className="form-floating col-12 col-sm-6">

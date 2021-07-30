@@ -23,10 +23,12 @@ function Informacoes() {
           </div>
           <div className="col-12 col-md-6 col-lg-3 informacoes-item">
             <p className="h3">Conectar<br />
-              <a href="..."><i className="fab fa-linkedin-in"></i></a>
-              <a href="..."><i className="fab fa-whatsapp"></i></a>
-              <a href="..."><i className="fab fa-facebook-f"></i></a>
-              <a href="..."><i className="fab fa-instagram"></i></a>
+              <div className="social-media">
+                <a href="..."><i className="fab fa-linkedin-in"></i></a>
+                <a href="..."><i className="fab fa-whatsapp"></i></a>
+                <a href="..."><i className="fab fa-facebook-f"></i></a>
+                <a href="..."><i className="fab fa-instagram"></i></a>
+              </div>
             </p>
           </div>
         </div>
