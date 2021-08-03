@@ -1,162 +1,166 @@
 footer {
-  position: relative;
-  padding-top: 80px;
-  background: var(--color-background);
+	position: relative;
+	padding-top: 80px;
+	background: var(--color-background);
+}
+
+footer .main-content {
+	padding: 5rem 0;
 }
 
 footer .container .content {
-  padding-bottom: 5rem;
+	padding-bottom: 5rem;
 }
 
 footer .first-content {
-  padding-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 footer .footer-title {
-  font-size: 2.1rem;
-  color: var(--color-black);
-  padding-bottom: 2rem;
-  font-weight: bolder;
-  font-family: Pangram-Regular;
+	font-size: 2.1rem;
+	color: var(--color-black);
+	padding-bottom: 2rem;
+	font-weight: bolder;
+	font-family: Pangram-Regular;
 }
 
 footer .footer-title span {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 footer .footer-title strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 footer .footer-content {
-  color: #969696;
-  max-width: 77%;
-  list-style-type: none;
-  transition: all 0.4s;
+	color: #969696;
+	max-width: 77%;
+	list-style-type: none;
+	transition: all 0.4s;
 }
 
 footer .footer-content:hover {
-  color: var(--color-black);
+	color: var(--color-black);
 }
 
 footer h3 {
-  font-weight: bold;
-  color: #212529;
-  max-width: 100%;
+	font-weight: bold;
+	color: #212529;
+	max-width: 100%;
 }
 
 footer ul {
-  padding-left: 0;
-  outline: none;
+	padding-left: 0;
+	outline: none;
 }
 
 footer ul a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 footer li a:link,
 footer li a:visited {
-  color: #969696;
-  transition: all 0.4s;
+	color: #969696;
+	transition: all 0.4s;
 }
 
 footer li a:hover {
-  color: var(--color-black);
+	color: var(--color-black);
 }
 
 footer li i {
-  text-align: left;
-  padding-right: 1.5rem;
+	text-align: left;
+	padding-right: 1.5rem;
 }
 
 footer iframe {
-  filter: opacity(0.8);
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
+	filter: opacity(0.8);
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 8px 16px 32px rgba(0, 0, 0, 0.16);
 
-  transition: all 0.4s;
+	transition: all 0.4s;
 }
 
 footer iframe:hover {
-  filter: opacity(1);
+	filter: opacity(1);
 }
 
 footer .footer-bar1 {
-  line-height: 5rem;
-  background-color: var(--color-black);
-  margin-top: 5rem;
+	line-height: 5rem;
+	background-color: var(--color-black);
+	margin-top: 5rem;
 }
 
 footer .container .row .item-footer:first-child {
-  text-align: left;
+	text-align: left;
 }
 
 footer .container .row .item-footer:last-child {
-  text-align: right;
+	text-align: right;
 }
 
 footer .footer-bar1 .container span,
 footer .footer-bar1 .container span a:link,
 footer .footer-bar1 .container span a:visited {
-  color: #808080;
+	color: #808080;
 }
 
 footer .footer-bar1 .container {
-  padding: 0.7rem 0;
+	padding: 0.7rem 0;
 }
 
 footer .footer-bar2 {
-  background: rgb(8, 8, 8);
-  color: var(--color-white);
-  padding: 1rem;
-  text-align: center;
-  font-family: Pangram-ExtraLight;
+	background: rgb(8, 8, 8);
+	color: var(--color-white);
+	padding: 1rem;
+	text-align: center;
+	font-family: Pangram-ExtraLight;
 }
 
 footer .footer-bar2 a {
-  text-decoration: none;
-  color: var(--color-yellow);
+	text-decoration: none;
+	color: var(--color-yellow);
 }
 
 footer .footer-bar2 a:hover {
-  font-family: Pangram-Regular;
+	font-family: Pangram-Regular;
 }
 
 @media (max-width: 576px) {
-  footer {
-    text-align: center;
-    justify-content: center;
-  }
+	footer {
+		text-align: center;
+		justify-content: center;
+	}
 
-  footer iframe {
-    margin-top: 2rem;
-  }
+	footer iframe {
+		margin-top: 2rem;
+	}
 
-  footer .container .row .item-footer:first-child,
-  footer .container .row .item-footer:last-child {
-    text-align: center;
-  }
+	footer .container .row .item-footer:first-child,
+	footer .container .row .item-footer:last-child {
+		text-align: center;
+	}
 
-  footer .footer-content {
-    max-width: 100%;
-  }
+	footer .footer-content {
+		max-width: 100%;
+	}
 
-  footer .first-content {
-    padding-top: 0;
-    padding-bottom: 2rem;
-  }
+	footer .first-content {
+		padding-top: 0;
+		padding-bottom: 3rem;
+	}
 
-  footer .footer-title {
-    font-size: 1.6em;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-  }
+	footer .footer-title {
+		font-size: 1.6em;
+		padding-bottom: 1rem;
+		padding-top: 2rem;
+	}
 
-  footer .footer-bar1 .container span,
-  footer .footer-bar1 .container span a:link,
-  footer .footer-bar1 .container span a:visited {
-    display: none;
-  }
+	footer .footer-bar1 .container span,
+	footer .footer-bar1 .container span a:link,
+	footer .footer-bar1 .container span a:visited {
+		display: none;
+	}
 }

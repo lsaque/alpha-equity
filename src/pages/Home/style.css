@@ -1,164 +1,160 @@
-@import url(../../assets/styles/global.css);
-
 #inicio {
-  position: relative;
-  z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 
 #inicio,
 #portfolio {
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: var(--color-background);
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: var(--color-background);
 }
 
 #inicio .carousel-indicators,
-#portfolio .carousel-indicators
- {
-  padding-bottom: 6rem;
-  margin-left: 25%;
-  margin-right: 25%;
-  z-index: 3;
+#portfolio .carousel-indicators {
+	padding-bottom: 6rem;
+	margin-left: 25%;
+	margin-right: 25%;
+	z-index: 3;
 }
 
 #inicio .footer,
 #porfolio .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  left: 0;
-  z-index: 2;
-  margin-bottom: 7rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	left: 0;
+	z-index: 2;
+	margin-bottom: 7rem;
 }
 
 #inicio .footer .item,
-#portfolio .footer .item
- {
-  color: var(--color-white);
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  opacity: 80%;
+#portfolio .footer .item {
+	color: var(--color-white);
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	opacity: 80%;
 }
 
 #inicio .footer .right {
-  text-align: right;
+	text-align: right;
 }
 
 #inicio .footer .left {
-  align-self: flex-end;
+	align-self: flex-end;
 }
 
 #inicio .footer .right i {
-  padding-left: 10px;
-  font-size: 15px;
+	padding-left: 10px;
+	font-size: 15px;
 }
 
 #inicio .footer .right a {
-  color: var(--color-white);
-  opacity: 0.8;
-  transition: all 0.3s;
+	color: var(--color-white);
+	opacity: 0.8;
+	transition: all 0.3s;
 }
 
 #inicio .footer .right a:hover {
-  opacity: 1;
-  color: var(--color-yellow);
+	opacity: 1;
+	color: var(--color-yellow);
 }
 
 #inicio .active,
-#portfolio .active{
-  background-color: var(--color-yellow);
+#portfolio .active {
+	background-color: var(--color-yellow);
 }
 
 #inicio .carousel-inner,
-#portfolio .carousel-inner{
-  height: 100vh;
+#portfolio .carousel-inner {
+	height: 100vh;
 }
 
-#inicio .carousel-inner .center-content{
-  position: absolute;
-  display: grid;
-  top: 0;
-  align-content: center;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  background-image: url(../../assets/images/Inicio/backTriangle25.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 48rem;
+#inicio .carousel-inner .center-content {
+	position: absolute;
+	display: grid;
+	top: 0;
+	align-content: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	background-image: url(../../assets/images/Inicio/backTriangle25.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 48rem;
 }
 
 #inicio .carousel-inner .carousel-item .img-bg,
-#portfolio .carousel-inner .carousel-item .img-bg{
-  display: block;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+#portfolio .carousel-inner .carousel-item .img-bg {
+	display: block;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
 }
 
 #inicio .carousel-inner .carousel-item .back-triangle,
 #portfolio .carousel-inner .carousel-item .back-triangle {
-  width: 60%;
-  position: relative;
+	width: 60%;
+	position: relative;
 }
 
 #inicio .carousel-item .h1-box,
 #portfolio .carousel-item .h1-box {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 #inicio .carousel-item h1,
 #portfolio .carousel-item h1 {
-  text-transform: uppercase;
-  color: var(--color-white);
-  padding-bottom: 3rem;
+	text-transform: uppercase;
+	color: var(--color-white);
+	padding-bottom: 3rem;
 }
 
 #inicio .carousel-item .p-box,
 #portfolio .carousel-item .p-box {
-  margin: 0 auto;
-  max-width: 45rem;
+	margin: 0 auto;
+	max-width: 45rem;
 }
 
 #inicio .carousel-item .p-box p,
 #portfolio .carousel-item .p-box p {
-  color: var(--color-white);
+	color: var(--color-white);
 }
 
 #inicio .carousel-item span,
 #portfolio .carousel-item span {
-  font-family: Pangram-Bold;
+	font-family: Pangram-Bold;
 }
 
 @media (min-width: 1210px) {
-  #inicio .carousel-inner .center-content,
-  #portfolio .carousel-inner .center-content {
-    background-size: 80rem 50rem;
-  }
+	#inicio .carousel-inner .center-content,
+	#portfolio .carousel-inner .center-content {
+		background-size: 80rem 50rem;
+	}
 
-  #inicio .carousel-item h1,
-  #portfolio .carousel-item h1 {
-    font-size: 6.4rem;
-  }
+	#inicio .carousel-item h1,
+	#portfolio .carousel-item h1 {
+		font-size: 6.4rem;
+	}
 
-  #inicio .carousel-item .h1-box,
-  #portfolio .carousel-item .h1-box {
-    max-width: 100%;
-  }
+	#inicio .carousel-item .h1-box,
+	#portfolio .carousel-item .h1-box {
+		max-width: 100%;
+	}
 
-  #inicio .carousel-item .p-box,
-  #portfolio .carousel-item .p-box {
-    max-width: 60rem;
-  }
+	#inicio .carousel-item .p-box,
+	#portfolio .carousel-item .p-box {
+		max-width: 60rem;
+	}
 
-  #inicio .carousel-item .p-box p,
-  #portfolio .carousel-item .p-box p {
-    font-size: 2.4rem;
-  }
+	#inicio .carousel-item .p-box p,
+	#portfolio .carousel-item .p-box p {
+		font-size: 2.4rem;
+	}
 }

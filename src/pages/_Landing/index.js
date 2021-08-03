@@ -8,9 +8,9 @@ import Alphapedia from '../Alphapedia';
 import Agradecimento from '../Agradecimento';
 import Contato from '../Contato';
 import Footer from '../../components/Footer';
+import BackTriangle from '../../components/BackTriangle';
 
 import '../../assets/styles/global.css';
-import BackTriangle from '../../components/BackTriangle';
 
 function Landing() {
   return (

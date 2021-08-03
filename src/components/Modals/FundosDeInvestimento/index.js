@@ -5,7 +5,7 @@ function FundosDeInvestimento() {
 return (
   <div className="modal fade" id="fundos-de-investimento" data-bs-keyboard="false" tabIndex="-1"
     aria-labelledby="fundos-de-investimentoLabel" aria-hidden="true">
-    <div className="modal-dialog modal-dialog-centered modal-xl modal-fullscreen-lg-down modal-dialog-scrollable">
+    <div className="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-scrollable">
       <div className="modal-content">
 
         <div className="modal-header">
@@ -161,7 +161,7 @@ return (
 
         <div className="modal-footer">
           <div className="button-box">
-            <button type="button" data-bs-dismiss="modal">
+            <button type="button" data-bs-dismiss="modal" >
               <span>Fechar</span>
             </button>
           </div>

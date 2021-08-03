@@ -1,127 +1,127 @@
-@import '../../../pages/Sobre/style.css';
+@import "../../../pages/Sobre/style.css";
 
 .modal {
-  max-width: 100vw;
-  box-shadow: 1px 0px 32px 20px #00000096;
+	max-width: 100vw;
+	box-shadow: 1px 0px 32px 20px #00000096;
 }
 
 .modal .container-fluid {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  text-align: center;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	text-align: center;
+	width: 100%;
 }
 
 .modal .modal-content {
-  background: var(--color-background);
-  background-image: url(../../../assets/images/PortfolioItem/backTriangle75.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 45rem;
-  border-radius: 0;
+	background: var(--color-background);
+	background-image: url(../../../assets/images/PortfolioItem/backTriangle75.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 45rem;
+	border-radius: 0;
 }
 
 .modal .active {
-  color: var(--color-black);
+	color: var(--color-black);
 }
 
 .modal .modal-header {
-  background: none;
-  opacity: 0.5;
+	background: none;
+	opacity: 0.5;
 }
 
 .modal .modal-body .initial-content {
-  display: grid;
-  grid-gap: 5rem;
-  height: 86vh;
-  /* height: 1000px; */
-  padding: 2rem 0;
+	display: grid;
+	grid-gap: 5rem;
+	height: 86vh;
+	/* height: 1000px; */
+	padding: 2rem 0;
 }
 
 .modal .modal-body .initial-content .header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
 
 .modal .modal-body .initial-content .center {
-  display: inline-flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+	display: inline-flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .modal .modal-body .initial-content .footer {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .modal .modal-body .box-description {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 .modal .content {
-  display: grid;
-  /* height: 80vh; */
-  grid-gap: 6rem;
-  margin: 2rem 0;
-  padding: 12rem 0;
+	display: grid;
+	/* height: 80vh; */
+	grid-gap: 6rem;
+	margin: 2rem 0;
+	padding: 12rem 0;
 }
 
 .modal .content .header span {
-  font-weight: 600;
+	font-weight: 600;
 }
 
 .modal .content .center h1 {
-  padding-bottom: 5rem;
+	padding-bottom: 5rem;
 }
 
 .modal .content .footer p {
-  font-weight: 600;
-  text-transform: uppercase;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .modal .box-image {
-  width: 50%;
-  margin: 0 auto;
-  filter: contrast(1);
+	width: 50%;
+	margin: 0 auto;
+	filter: contrast(1);
 }
 
 .modal .image {
-  width: 100%;
-  border: none;
-  height: 100px;
-  background: transparent;
-  filter: contrast(1);
-  background-image: url(../../../assets/images/Modal/fluxo.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 7rem;
-  transition: all 0.2s;
+	width: 100%;
+	border: none;
+	height: 100px;
+	background: transparent;
+	filter: contrast(1);
+	background-image: url(../../../assets/images/Modal/fluxo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 7rem;
+	transition: all 0.2s;
 }
 
 .modal .image:hover,
 .modal .image:focus {
-  filter: grayscale(1);
-  background-size: 8rem;
+	filter: grayscale(1);
+	background-size: 8rem;
 }
 
-.modal .modal-footer button{
-  margin-right: 2rem;
+.modal .modal-footer button {
+	margin-right: 2rem;
 }
 
 @media (min-width: 1210px) {
-  .modal .initial-content .center h1 {
-    font-size: 6.4rem;
-  }
+	.modal .initial-content .center h1 {
+		font-size: 6.4rem;
+	}
 
-  .modal .initial-content .center h3 {
-    font-size: 2.4rem;
-  }
+	.modal .initial-content .center h3 {
+		font-size: 2.4rem;
+	}
 
-  .modal .modal-content {
-    background-size: 60rem;
-  }
+	.modal .modal-content {
+		background-size: 60rem;
+	}
 }

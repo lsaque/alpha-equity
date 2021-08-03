@@ -1,250 +1,247 @@
-@import url(../../assets/styles/global.css);
-
 nav {
-  height: 75px;
-  background: var(--color-black);
-  color: var(--color-white);
-  justify-content: center;
+	height: 75px;
+	background: var(--color-black);
+	color: var(--color-white);
+	justify-content: center;
 }
 
 nav .navbar-nav {
-  width: 100%;
-  justify-content: center;
+	width: 100%;
+	justify-content: center;
 }
 
 nav .navbar-brand {
-  display: flex;
-  width: 40%;
-  /* min-width: 10%; */
-  margin-right: auto;
+	display: flex;
+	width: 40%;
+	/* min-width: 10%; */
+	margin-right: auto;
 }
 
 nav .navbar-brand img {
-  width: 250px;
+	width: 250px;
 }
 
 nav .navbar-style-center {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 nav .navbar-style-center * {
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
 }
 
 nav .navbar-style-center li {
-  width: 13rem;
-  padding-top: 10px;
-  display: inline-block;
-  list-style: outside none none;
-  margin: 0 0.25em;
-  overflow: hidden;
+	width: 13rem;
+	padding-top: 10px;
+	display: inline-block;
+	list-style: outside none none;
+	margin: 0 0.25em;
+	overflow: hidden;
 }
 
 nav .navbar-style-center a {
-  padding: 0.9em 0;
-  color: rgba(255, 255, 255, 0.5);
-  position: relative;
-  display: inline-block;
-  letter-spacing: 1px;
-  margin: 0;
-  text-decoration: none;
+	padding: 0.9em 0;
+	color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin: 0;
+	text-decoration: none;
 }
 
 nav .navbar-style-center a:hover {
-  color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 nav .navbar-style-center a:before,
 nav .navbar-style-center a:after {
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
+	position: absolute;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
 }
 
 nav .navbar-style-center a:before {
-  top: 100%;
-  display: flex;
-  width: 0;
-  right: 50%;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 10px solid var(--color-yellow);
-  content: "";
+	top: 100%;
+	display: flex;
+	width: 0;
+	right: 50%;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 10px solid var(--color-yellow);
+	content: "";
 }
 
 nav .navbar-style-center a:after {
-  padding: 0.9em 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  content: attr(data-hover);
-  color: var(--color-white);
-  white-space: nowrap;
+	padding: 0.9em 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	content: attr(data-hover);
+	color: var(--color-white);
+	white-space: nowrap;
 }
 
 nav .navbar-style-center li:hover a,
 nav .navbar-style-center .active a {
-  transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 
 nav .navbar-style-right {
-  align-items: center;
-  margin-left: auto;
-  width: 100%;
-  justify-content: flex-end;
-  padding-left: 10px;
-  margin: 0;
-  display: inline-flex;
-  padding-top: 8px;
+	align-items: center;
+	margin-left: auto;
+	width: 100%;
+	justify-content: flex-end;
+	padding-left: 10px;
+	margin: 0;
+	display: inline-flex;
+	padding-top: 8px;
 }
 
 nav .navbar-style-right a {
-  color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
 }
 
 nav .navbar-style-right a:hover,
 nav .navbar-style-right .active1 a {
-  color: var(--color-white);
+	color: var(--color-white);
 }
 
 nav .navbar-style-right span {
-  width: 1px;
-  background: var(--color-yellow);
-  height: 15px;
-  margin: 0.8rem 0.7rem;
+	width: 1px;
+	background: var(--color-yellow);
+	height: 15px;
+	margin: 0.8rem 0.7rem;
 }
 
 #menu-hamburger {
-  height: 100%;
-  width: 20%;
-  overflow: hidden;
-  display: none;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+	height: 100%;
+	width: 20%;
+	overflow: hidden;
+	display: none;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
 }
 
 #menu-hamburger input {
-  display: flex;
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 1;
+	display: flex;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 1;
 }
 
 #menu-hamburger span {
-  width: 2.2em;
-  height: 0.1em;
-  margin-bottom: 0.98rem;
-  background: var(--color-white);
-  -webkit-transition: all .2s cubic-bezier(.08, .81, .87, .71);
-  -moz-transition: all .2s cubic-bezier(.08, .81, .87, .71);
-  -ms-transition: all .2s cubic-bezier(.08, .81, .87, .71);
-  -o-transition: all .2s cubic-bezier(.08, .81, .87, .71);
-  transition: all .2s cubic-bezier(.08, .81, .87, .71);
+	width: 2.2em;
+	height: 0.1em;
+	margin-bottom: 0.98rem;
+	background: var(--color-white);
+	-webkit-transition: all 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+	-moz-transition: all 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+	-ms-transition: all 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+	-o-transition: all 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+	transition: all 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
 }
 
 #span1 {
-  transform-origin: 4px 0px;
+	transform-origin: 4px 0px;
 }
 
 #span3 {
-  transform-origin: bottom right;
+	transform-origin: bottom right;
 }
 
-#menu-hamburger input:checked~#span1 {
-  background-color: var(--color-yellow);
-  transform: rotate(45deg) translate(5px);
+#menu-hamburger input:checked ~ #span1 {
+	background-color: var(--color-yellow);
+	transform: rotate(45deg) translate(5px);
 }
 
-#menu-hamburger input:checked~#span2 {
-  background-color: var(--color-yellow);
-  transform: rotate(135deg) translate(3px);
+#menu-hamburger input:checked ~ #span2 {
+	background-color: var(--color-yellow);
+	transform: rotate(135deg) translate(3px);
 }
 
-#menu-hamburger input:checked~#span3 {
-  background-color: var(--color-yellow);
-  transform: rotate(45deg);
-  opacity: 0;
+#menu-hamburger input:checked ~ #span3 {
+	background-color: var(--color-yellow);
+	transform: rotate(45deg);
+	opacity: 0;
 }
-
 
 @media (max-width: 991.98px) {
-  #menu-hamburger {
-    display: flex;
-  }
+	#menu-hamburger {
+		display: flex;
+	}
 
-  .offcanvas-collapse {
-    padding: 0;
-    margin: 0;
-    padding-top: 3rem;
-    position: fixed;
-    top: 75px;
-    bottom: 0;
-    left: 100%;
-    width: 100%;
-    overflow-y: auto;
-    visibility: hidden;
-    border-top: 3px solid var(--color-yellow);
-    background-color: rgb(10, 10, 10);
-    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
-  }
+	.offcanvas-collapse {
+		padding: 0;
+		margin: 0;
+		padding-top: 3rem;
+		position: fixed;
+		top: 75px;
+		bottom: 0;
+		left: 100%;
+		width: 100%;
+		overflow-y: auto;
+		visibility: hidden;
+		border-top: 3px solid var(--color-yellow);
+		background-color: rgb(10, 10, 10);
+		transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+	}
 
-  .offcanvas-collapse.open {
-    visibility: visible;
-    transform: translateX(-100%);
-  }
+	.offcanvas-collapse.open {
+		visibility: visible;
+		transform: translateX(-100%);
+	}
 
-  nav .navbar-style-center li {
-    margin: 0;
-  }
+	nav .navbar-style-center li {
+		margin: 0;
+	}
 
-  nav .navbar-style-center li:hover {
-    background: rgb(17, 17, 17);
-  }
+	nav .navbar-style-center li:hover {
+		background: rgb(17, 17, 17);
+	}
 
-  nav .navbar-style-center a:before {
-    right: 39.8%;
-  }
+	nav .navbar-style-center a:before {
+		right: 39.8%;
+	}
 
-  nav .navbar-style-right {
-    margin-top: 5rem;
-  }
+	nav .navbar-style-right {
+		margin-top: 5rem;
+	}
 
-  nav .navbar-style-right a {
-    text-align: center;
-  }
+	nav .navbar-style-right a {
+		text-align: center;
+	}
 
-  nav .navbar-style-right span {
-    width: 50px;
-    height: 1px;
-  }
+	nav .navbar-style-right span {
+		width: 50px;
+		height: 1px;
+	}
 
-  nav .navbar-style-right {
-    padding-left: 0;
-  }
+	nav .navbar-style-right {
+		padding-left: 0;
+	}
 
-  nav .navbar-brand {
-    width: 50%;
-  }
+	nav .navbar-brand {
+		width: 50%;
+	}
 
-  nav .navbar-style-center li {
-    width: 100%;
-  }
+	nav .navbar-style-center li {
+		width: 100%;
+	}
 }
 
 .header-black {
-  background-color: var(--color-black);
-  transition: 0.75s;
+	background-color: var(--color-black);
+	transition: 0.75s;
 }
 
 .header-transparent {
-  background-color: transparent;
-  transition: 0.2s;
+	background-color: transparent;
+	transition: 0.2s;
 }

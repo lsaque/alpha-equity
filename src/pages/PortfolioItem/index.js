@@ -1,3 +1,4 @@
+import ReactDOM from 'react-dom';
 import React from 'react';
 import FundosDeInvestimento from '../../components/Modals/FundosDeInvestimento';
 // import operacoesSecuritizacao from '../../components/Modals/operacoesSecuritizacao';
@@ -17,9 +18,9 @@ function PortfolioItem() {
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
               <button 
-                // href=".teste"
                 data-bs-toggle="modal" 
                 data-bs-target="#fundos-de-investimento"
+                // onClick={() => document.getElementById("portfolio-item").scrollIntoView({block: "start", behavior: "instant"})}
                 className="internal-box col-12" 
               >
                 <div className="h1">
@@ -29,7 +30,6 @@ function PortfolioItem() {
             </div>
             <div className="col-12 col-sm-6 col-lg-3 box">
               <button 
-                // href="portfolio-item"
                 className="internal-box col-12" 
                 data-bs-toggle="modal" 
                 data-bs-target="#operacoes-securitizacao"
@@ -42,7 +42,6 @@ function PortfolioItem() {
             <div className="col-12 col-sm-6 col-lg-3 box">
               <button 
                 className="internal-box col-12" 
-                href="#portfolio-item"
                 data-bs-toggle="modal" 
                 data-bs-target="#merges-and-acquisitions"
               >
@@ -54,7 +53,6 @@ function PortfolioItem() {
             <div className="col-12 col-sm-6 col-lg-3 box">
               <button 
                 className="internal-box col-12" 
-                href="#portfolio-item"
                 data-bs-toggle="modal" 
                 data-bs-target="#decentralized-finance"
               >

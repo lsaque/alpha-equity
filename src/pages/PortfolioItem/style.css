@@ -1,126 +1,123 @@
-@import url(../../assets/styles/global.css);
-
 #portfolio-item {
-  position: relative;
-  background-image: url(../../assets/images/PortfolioItem/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  width: 100vw;
-  height: auto;
-  z-index: 1;
+	position: relative;
+	background-image: url(../../assets/images/PortfolioItem/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width: 100vw;
+	height: auto;
+	z-index: 1;
 }
 
 #portfolio-item .row {
-  justify-content: space-around;
-  padding: 10rem 0;
-  height: 100vh;
-  max-height: 1080px;
-  align-content: flex-end;
+	justify-content: space-around;
+	padding: 10rem 0;
+	height: 100vh;
+	max-height: 1080px;
+	align-content: flex-end;
 }
 
 #portfolio-item h1,
 #portfolio-item span {
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--color-white);
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--color-white);
 }
 
 #portfolio-item h1 {
-  font-family: Pangram-Regular;
-  padding-bottom: 8rem;
+	font-family: Pangram-Regular;
+	padding-bottom: 8rem;
 }
 
 #portfolio-item span {
-  font-family: Pangram-Bold;
+	font-family: Pangram-Bold;
 }
 
 #portfolio-item .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem;
 }
 
 #portfolio-item .box .internal-box {
-  background-image: url(../../assets/images/PortfolioItem/backTriangle75.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 16rem;
+	background-image: url(../../assets/images/PortfolioItem/backTriangle75.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 16rem;
 
-  border-radius: 12px;
-  border: 3px solid var(--color-white);
-  border-bottom: 3px solid var(--color-yellow);
+	border-radius: 12px;
+	border: 3px solid var(--color-white);
+	border-bottom: 3px solid var(--color-yellow);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  height: 30rem;
-  max-width: 30rem;
-  text-decoration: none;
+	height: 30rem;
+	max-width: 30rem;
+	text-decoration: none;
 }
 
 #portfolio-item .box .internal-box:hover {
-  border: 3px solid var(--color-yellow);
-  backdrop-filter: blur(2px);
-  transition: all 0.5s;
-  cursor: pointer;
+	border: 3px solid var(--color-yellow);
+	backdrop-filter: blur(2px);
+	transition: all 0.5s;
+	cursor: pointer;
 }
 
-#portfolio-item .box button{
-  background: transparent;
-  filter: contrast(1);
-
+#portfolio-item .box button {
+	background: transparent;
+	filter: contrast(1);
 }
 
 #portfolio-item .box .internal-box .h1 {
-  text-transform: uppercase;
-  text-decoration: none;
-  background: none;
-  border: none;
-  text-align: center;
-  color: var(--color-white);
+	text-transform: uppercase;
+	text-decoration: none;
+	background: none;
+	border: none;
+	text-align: center;
+	color: var(--color-white);
 }
 #portfolio-item .box .internal-box .h1:hover {
-  color: var(--color-white);
-  filter: contrast(1);
+	color: var(--color-white);
+	filter: contrast(1);
 }
 
 @media (max-width: 1210px) {
-  #portfolio-item .row {
-    padding: 0;
-    padding-bottom: 6rem;
-  }
+	#portfolio-item .row {
+		padding: 0;
+		padding-bottom: 6rem;
+	}
 
-  #portfolio-item .box .internal-box {
-    height: 20rem;
-    width: 100%;
-  }
+	#portfolio-item .box .internal-box {
+		height: 20rem;
+		width: 100%;
+	}
 
-  #portfolio-item .row {
-    height: auto;
-  }
+	#portfolio-item .row {
+		height: auto;
+	}
 
-  #portfolio-item h1 {
-    padding-bottom: 2rem;
-    padding-top: 6rem;
-  }
+	#portfolio-item h1 {
+		padding-bottom: 2rem;
+		padding-top: 6rem;
+	}
 }
 
 @media (min-width: 1210px) {
-  #portfolio-item h1 {
-    font-size: 6.4rem;
-  }
+	#portfolio-item h1 {
+		font-size: 6.4rem;
+	}
 }
 
 @media (min-width: 991.98px) and (max-width: 1210px) {
-  #portfolio-item .box .internal-box .h1 {
-    font-size: 2rem;
-  }
+	#portfolio-item .box .internal-box .h1 {
+		font-size: 2rem;
+	}
 
-  #portfolio-item .box .internal-box {
-    background-size: 12rem;
-    width: 20rem;
-  }
+	#portfolio-item .box .internal-box {
+		background-size: 12rem;
+		width: 20rem;
+	}
 }
