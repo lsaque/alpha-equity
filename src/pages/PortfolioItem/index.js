@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
 import FundosDeInvestimento from '../../components/Modals/FundosDeInvestimento';
 // import operacoesSecuritizacao from '../../components/Modals/operacoesSecuritizacao';

@@ -28,12 +28,12 @@ function Footer() {
                   <a href="#inicio">Início</a>
                 </li>
 
-                <li className="footer-content">
+                <li className="footer-content" id="Portfolio">
                   <div class="dropdown">
                     <a 
                       className="dropdown-toggle" 
                       role="button" 
-                      href="#"
+                      href="Portfolio"
                       id="dropPortfolio" 
                       data-bs-toggle="dropdown" 
                       aria-expanded="false"
@@ -47,7 +47,7 @@ function Footer() {
                         >Portfólio</a>
                       <a 
                         class="dropdown-item h3" 
-                        href="#" 
+                        href="..." 
                         data-bs-toggle="modal" 
                         data-bs-target="#fundos-de-investimento"
                       >Fundos de Investimento</a>
@@ -73,12 +73,12 @@ function Footer() {
                   </div>
                 </li>           
 
-                <li className="footer-content">
+                <li className="footer-content" id="QuemSomos">
                   <div class="dropdown">
                     <a 
                       className="dropdown-toggle" 
                       role="button" 
-                      href="#"
+                      href="QuemSomos"
                       id="dropQuemSomos" 
                       data-bs-toggle="dropdown" 
                       aria-expanded="false"
