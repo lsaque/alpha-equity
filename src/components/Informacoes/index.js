@@ -7,7 +7,7 @@ function Informacoes() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-3 informacoes-item">
-            <a href="...">
+            <a href="#">
               <p className="h3">+55 11 3878 5036<br />Head Office</p>
             </a>
           </div>
@@ -24,10 +24,10 @@ function Informacoes() {
           <div className="col-12 col-md-6 col-lg-3 informacoes-item">
             <p className="h3">Conectar<br />
               <div className="social-media">
-                <a href="..."><i className="fab fa-linkedin-in"></i></a>
-                <a href="..."><i className="fab fa-whatsapp"></i></a>
-                <a href="..."><i className="fab fa-facebook-f"></i></a>
-                <a href="..."><i className="fab fa-instagram"></i></a>
+                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                <a href="#"><i className="fab fa-whatsapp"></i></a>
+                <a href="#"><i className="fab fa-facebook-f"></i></a>
+                <a href="#"><i className="fab fa-instagram"></i></a>
               </div>
             </p>
           </div>

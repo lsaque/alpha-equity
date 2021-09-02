@@ -5,7 +5,7 @@ function FundosDeInvestimento() {
 return (
   <div className="modal fade" id="fundos-de-investimento" data-bs-keyboard="false" tabIndex="-1"
     aria-labelledby="fundos-de-investimentoLabel" aria-hidden="true">
-    <div className="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-scrollable">
+    <div className="modal-dialog modal-xl modal-fullscreen modal-dialog-scrollable">
       <div className="modal-content">
 
         <div className="modal-header">

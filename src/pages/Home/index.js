@@ -32,7 +32,7 @@ function Home() {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <img src={img} className="img-bg" alt="..." />
+            <img src={img} className="img-bg" alt="#" />
             <div className="center-content">
               <div className="h1-box">
                 <h1 className="display-1">Where we <span>begin</span>, <br />it will be <span>Always better.</span></h1>
@@ -45,7 +45,7 @@ function Home() {
           </div>
 
           <div className="carousel-item">
-            <img src={img} className="img-bg" alt="..." />
+            <img src={img} className="img-bg" alt="#" />
             <div className="center-content">
               <div className="h1-box">
                 <h1 className="display-1">Where we <span>begin</span>, <br />it will be <span>Always better.</span></h1>
@@ -58,7 +58,7 @@ function Home() {
           </div>
 
           <div className="carousel-item">
-            <img src={img} className="img-bg" alt="..." />
+            <img src={img} className="img-bg" alt="#" />
             <div className="center-content">
               <div className="h1-box">
                 <h1 className="display-1">Where we <span>begin</span>, <br />it will be <span>Always better.</span></h1>
@@ -71,7 +71,7 @@ function Home() {
           </div>
 
           <div className="carousel-item">
-            <img src={img} className="img-bg" alt="..." />
+            <img src={img} className="img-bg" alt="#" />
             <div className="center-content">
               <div className="h1-box">
                 <h1 className="display-1">Where we <span>begin</span>, <br />it will be <span>Always better.</span></h1>
@@ -84,7 +84,7 @@ function Home() {
           </div>
 
           <div className="carousel-item">
-            <img src={img} className="img-bg" alt="..." />
+            <img src={img} className="img-bg" alt="#" />
             <div className="center-content">
               <div className="h1-box">
                 <h1 className="display-1">Where we <span>begin</span>, <br />it will be <span>Always better.</span></h1>

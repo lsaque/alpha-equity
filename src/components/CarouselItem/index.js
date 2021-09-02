@@ -4,7 +4,7 @@ import './style.css';
 function carouselContentItem(image, title, description, href, textButton){
   return(
     <div className="carousel-item">
-      <img src={image} className="img-bg" alt="..." />
+      <img src={image} className="img-bg" alt="#" />
       <div className="center-content">
         <div className="h1-box">
           <h1 className="display-1">{title}</h1>
@@ -38,7 +38,7 @@ class CarouselItem extends React.Component {
           <div className="carousel-inner">
 
             <div className="carousel-item active">
-              <img src={this.props.images[0]} className="img-bg" alt="..." />
+              <img src={this.props.images[0]} className="img-bg" alt="#" />
               <div className="center-content">
                 <div className="h1-box">
                   <h1 className="display-1"> {this.props.titles[0]} </h1>
