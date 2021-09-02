@@ -74,7 +74,7 @@ function Contato() {
             </div>
 
             <div className="button-box">
-              <button type="submit" href="..."><span>Enviar</span></button>
+              <button type="submit" href="#"><span>Enviar</span></button>
             </div>
 
           </form>

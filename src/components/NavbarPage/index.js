@@ -5,7 +5,7 @@ import './style.css';
 // import './script.js';
 import logo from '../../assets/images/logo.svg';
 
-function Navbar() {
+function NavbarPage() {
   return (
     <>
       <nav id="menu" className="navbar navbar-expand-lg fixed-top" aria-label="Menu de Navegação">
@@ -62,4 +62,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarPage;

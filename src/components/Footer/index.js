@@ -1,5 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './style.css';
+
 import Informacoes from '../../components/Informacoes';
 import logoFull from '../../assets/images/logo-full.svg';
 import logoIcon from '../../assets/images/logo-icon.svg';
@@ -44,31 +47,39 @@ function Footer() {
                       <a 
                         class="dropdown-item h3" 
                         href="#portfolio-item"
-                        >Portfólio</a>
+                        >Portfólio
+                      </a>
+                      
                       <a 
                         class="dropdown-item h3" 
-                        href="..." 
+                        href="#" 
                         data-bs-toggle="modal" 
                         data-bs-target="#fundos-de-investimento"
-                      >Fundos de Investimento</a>
+                        >Fundos de Investimento
+                      </a>
+
                       <a 
                         class="dropdown-item h3" 
                         href="#portfolio-item"
                         // data-bs-toggle="modal" 
                         // data-bs-target="#fundos-de-investimento"
-                      >Operações de Securitização</a>
+                        >Operações de Securitização
+                      </a>
+
                       <a 
                         class="dropdown-item h3" 
                         href="#portfolio-item"
                         // data-bs-toggle="modal" 
                         // data-bs-target="#fundos-de-investimento"
-                      >Merges & Acquisitions</a>
+                        >Merges & Acquisitions</a>
+
                       <a 
                         class="dropdown-item h3" 
                         href="#portfolio-item"
                         // data-bs-toggle="modal" 
                         // data-bs-target="#fundos-de-investimento"
-                      >Decentralized Finance</a>
+                        >Decentralized Finance
+                      </a>
                     </ul>
                   </div>
                 </li>           
