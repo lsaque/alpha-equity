@@ -12,12 +12,17 @@
  };
 
  //Se o usuário realizar a rolagem, trocar o menu transparente pelo colorido
- window.onscroll = function () {
-   scrollFunction();
-   navActiveChange();
-   leftMenuActive();
-   fixedLeftMenu();
-   scrollEquipe();
+  window.onscroll = function () {
+  try{
+    scrollFunction();
+    navActiveChange();
+    leftMenuActive();
+    fixedLeftMenu();
+    scrollEquipe();
+  }
+  catch(Exception){
+  
+  }
  }
 
  function scrollFunction() {

@@ -8,7 +8,7 @@ import logo from '../../assets/images/logo.svg';
 function NavbarPage() {
   return (
     <>
-      <nav id="menu" className="navbar navbar-expand-lg fixed-top" aria-label="Menu de Navegação">
+      <nav id="menu1" className="navbar navbar-expand-lg fixed-top" aria-label="Menu de Navegação">
         <div className="container-fluid">
 
           <Link to="/" className="navbar-brand">
@@ -30,20 +30,18 @@ function NavbarPage() {
 
             <ul className="navbar-nav navbar-style-center">
               <li className="nav-item active" id="home">
-                <a className="nav-link" aria-current="page" href="#inicio" data-hover="Inicio">Inicio</a>
+                <a className="nav-link" aria-current="page" href="#inicio" data-hover="A">A</a>
               </li>
               <li className="nav-item" id="portifolio">
-                <a className="nav-link" href="#portfolio-item" data-hover="Portfólio">Portfólio</a>
+                <a className="nav-link" href="#portfolio-item" data-hover="Portfólio">B</a>
               </li>
               <li className="nav-item" id="quem-somos">
-                <a className="nav-link" href="#sobre" data-hover="Quem Somos">Quem Somos</a>
+                <a className="nav-link" href="#sobre" data-hover="Quem Somos">C</a>
               </li>
               <li className="nav-item" id="pedia">
-                <a className="nav-link" href="#alphapedia" data-hover="Alphapédia">Alphapédia</a>
+                <a className="nav-link" href="#alphapedia" data-hover="Alphapédia">D</a>
               </li>
-              <li className="nav-item" id="contate-nos">
-                <a className="nav-link" href="#contato" data-hover="Contato">Contato</a>
-              </li>
+              
             </ul>
 
             <ul className="navbar-nav navbar-style-right">

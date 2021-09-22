@@ -7,7 +7,7 @@ function FundosDeInvestimento() {
   return (
     <React.Fragment>
 
-      <NavbarPage/>
+      <NavbarPage/> 
       <div className="container-fluid">
 
       <div className="row">
